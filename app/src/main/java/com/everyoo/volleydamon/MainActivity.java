@@ -92,6 +92,10 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          * 定制自己的Request
+         *
+         *
+         *
+         *
          */
 
         GsonRequestMethod();

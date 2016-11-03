@@ -17,6 +17,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    //useLibrary 'org.apache.http.legacy' //该包里的方法都已弃用
 }
 
 dependencies {
@@ -25,4 +27,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile files('libs/volley.jar')
     compile 'com.google.code.gson:gson:2.2.4'
+    compile 'cz.msebera.android:httpclient:4.4.1.2'
 }
